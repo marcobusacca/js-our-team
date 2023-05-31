@@ -79,3 +79,38 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
             console.log(`Chiave: ${key}`);
 
             console.log(`Valore: ${teamObject[key]}`);
+
+
+
+- MILESTONE 2:
+
+    - Inserire BootStrap CDN CSS in HTML;
+
+    - Creare la struttura HTML dove inserire le informazioni degli Oggetti;
+
+
+    - Creare una Funzione (generateDomElement(teamInfo, grid)) che genera gli Elementi HTML dove inserire le informazioni degli Oggetti:
+
+        - Inserire dentro una Constante l'Elemento HTML "DIV": const infoContainer = document.createElement('div');
+
+        - Aggiungere a infoContainer la classe "col-4": infoContainer.classList.add('col-4');
+
+        - Aggiungere dentro infoContainer l'informazione di ogni Oggetto: infoContainer.innerText = teamInfo;
+
+        - Appendere (append) dentro la Griglia HTML la Constante infoContainer: grid.append(infoContainer).
+
+
+    - Ottenere la Griglia HTML dove inserire le Informazioni ed inserirla in una Constante: const grid = document.getElementById('grid');
+
+
+    - Creare un CICLO FOR che scorre tutti gli Elementi del teamArray:
+
+        - Inserire dentro una Variabile ogni Elemento della seguente iterazione: let teamObject = teamArray[i];
+
+        - Creare un CICLO FOR IN che recupera i Valori di ogni Oggetto e li Inserisce nel Dom:
+
+            - Inserire ogni Valore dell'Oggetto dentro una Constante: const teamInfo = teamObject[key];
+
+            - Richiamare la Funzione: generateDomElement(teamInfo, grid);
+
+
