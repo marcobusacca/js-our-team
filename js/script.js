@@ -91,3 +91,33 @@ for (let i = 0; i < teamArray.length; i++){
         `);
     }
 }
+
+
+// RECUPERO LA GRIGLIA HTML DOVE INSERIRE LE INFORMAZIONI
+const grid = document.getElementById('grid');
+
+// CICLO FOR CHE SCORRE TUTTI GLI ELEMENTI DEL TEAM_ARRAY
+for (let i = 0; i < teamArray.length; i++){
+    
+    // INSERIMENTO DENTRO UNA VARIABILE OGNI ELEMENTO DELLA SEGUENTE ITERAZIONE
+    let teamObject = teamArray[i];
+
+    // VARIABILE CONTENTE GLI ELEMENTI DA INSERIRE NEL DOM
+    let domContent = `
+    <!-- Col Object ${i+1} Info Name -->
+    <div class="col-3 py-2 border border-dark-subtle">
+        <h1 class="fs-5">${teamObject.name}</h1>
+    </div>
+    <!-- Col Object ${i+1} Info Role -->
+    <div class="col-3 py-2 border border-dark-subtle">
+        <span>${teamObject.role}</span>
+    </div>
+    <!-- Col Object ${i+1} Info Image -->
+    <div class="col-4 py-2 border border-dark-subtle">
+        <span>${teamObject.image}</span>
+    </div>
+    `
+
+    // INSERIMENTO INFORMAZIONI DENTRO LA GRIGLIA HTML
+    grid.innerHTML += (domContent);
+}
