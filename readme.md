@@ -112,5 +112,3 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
             - Inserire ogni Valore dell'Oggetto dentro una Constante: const teamInfo = teamObject[key];
 
             - Richiamare la Funzione: generateDomElement(teamInfo, grid);
-
-
