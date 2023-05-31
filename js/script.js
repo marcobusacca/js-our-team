@@ -81,9 +81,13 @@ for (let i = 0; i < teamArray.length; i++){
     for (let key in teamObject){
 
         // STAMPO IN CONSOLE OGNI CHIAVE DELL'OGGETTO
-        console.log(`Chiave: ${key}`);
+        console.log(`
+        Chiave: ${key}
+        `);
 
         // STAMPO IN CONSOLE OGNI VALORE DELL'OGGETTO
-        console.log(`Valore: ${teamObject[key]}`);
+        console.log(`
+        Valore: ${teamObject[key]}
+        `);
     }
 }
