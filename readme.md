@@ -18,8 +18,8 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
 
         - Dichiarare l'Oggetto [i = 1]{
             
@@ -27,8 +27,8 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
 
         - Dichiarare l'Oggetto [i = 2]{
             
@@ -36,8 +36,8 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
         
         - Dichiarare l'Oggetto [i = 3]{
             
@@ -45,8 +45,8 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
 
         - Dichiarare l'Oggetto [i = 4]{
             
@@ -54,8 +54,8 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
 
         - Dichiarare l'Oggetto [i = 5]{
             
@@ -63,5 +63,5 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'role' : '',
 
-            'image' : '',
-        }
+            'image' : ''
+        },
