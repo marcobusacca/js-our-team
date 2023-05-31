@@ -114,7 +114,7 @@ for (let i = 0; i < teamArray.length; i++){
     </div>
     <!-- Col Object ${i+1} Info Image -->
     <div class="col-4 py-2 border border-dark-subtle">
-        <span>${teamObject.image}</span>
+        <img src="./img/${teamObject.image}" alt="image-${i+1}">
     </div>
     `
 
