@@ -64,4 +64,4 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
             'role' : '',
 
             'image' : ''
-        },
+        }
