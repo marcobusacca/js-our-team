@@ -104,17 +104,19 @@ for (let i = 0; i < teamArray.length; i++){
 
     // VARIABILE CONTENTE GLI ELEMENTI DA INSERIRE NEL DOM
     let domContent = `
-    <!-- Col Object ${i+1} Info Name -->
-    <div class="col-3 py-2 border border-dark-subtle">
-        <h1 class="fs-5">${teamObject.name}</h1>
-    </div>
-    <!-- Col Object ${i+1} Info Role -->
-    <div class="col-3 py-2 border border-dark-subtle">
-        <span>${teamObject.role}</span>
-    </div>
-    <!-- Col Object ${i+1} Info Image -->
-    <div class="col-4 py-2 border border-dark-subtle">
-        <img src="./img/${teamObject.image}" alt="image-${i+1}">
+    <!-- Object ${i+1} Col Card -->
+    <div class="col-12 col-md-4 d-flex justify-content-center my-3">
+        <div class="card" style="width: 18rem;">
+            <!-- Object ${i+1} Info Image -->
+            <img src="./img/${teamObject.image}" class="card-img-top" alt="image-${i+1}">
+            <!-- Object ${i+1} Card Body -->
+            <div class="card-body text-center">
+                <!-- Object ${i+1} Info Name -->
+                <h5 class="card-title">${teamObject.name}</h5>
+                <!-- Object ${i+1} Info Role -->
+                <p class="card-text">${teamObject.role}</p>
+            </div>
+        </div>
     </div>
     `
 
