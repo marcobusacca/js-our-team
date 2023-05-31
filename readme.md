@@ -76,4 +76,6 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
         - Creare un CICLO FOR IN che stampa in Console le Chiavi e i Valori di ogni Oggetto:
 
-            - console.log(`Chiave: ${key} - Valore: ${teamObject[key]}`).
+            console.log(`Chiave: ${key}`);
+
+            console.log(`Valore: ${teamObject[key]}`);

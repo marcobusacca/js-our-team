@@ -64,3 +64,26 @@ let teamArray = [
         'image' : 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+
+
+// CICLO FOR CHE SCORRE TUTTI GLI ELEMENTI DEL TEAM_ARRAY
+for (let i = 0; i < teamArray.length; i++){
+    
+    // INSERIMENTO DENTRO UNA VARIABILE OGNI ELEMENTO DELLA SEGUENTE ITERAZIONE
+    let teamObject = teamArray[i];
+
+    // STAMPO IN CONSOLE UN INDICATORE DI OGNI OGGETTO
+    console.log(`
+    Oggetto ${i+1}
+    `);
+
+    // CICLO FOR IN CHE STAMPA IN CONSOLE LE CHIAVI E I VALORI DI OGNI OGGETTO
+    for (let key in teamObject){
+
+        // STAMPO IN CONSOLE OGNI CHIAVE DELL'OGGETTO
+        console.log(`Chiave: ${key}`);
+
+        // STAMPO IN CONSOLE OGNI VALORE DELL'OGGETTO
+        console.log(`Valore: ${teamObject[key]}`);
+    }
+}
