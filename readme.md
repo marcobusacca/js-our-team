@@ -65,3 +65,15 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
             'image' : ''
         }
+
+
+
+- MILESTONE 1:
+
+    - Creare un CICLO FOR che scorre tutti gli Elementi del teamArray:
+
+        - Inserire dentro una Variabile ogni Elemento della seguente iterazione: let teamObject = teamArray[i];
+
+        - Creare un CICLO FOR IN che stampa in Console le Chiavi e i Valori di ogni Oggetto:
+
+            - console.log(`Chiave: ${key} - Valore: ${teamObject[key]}`).
